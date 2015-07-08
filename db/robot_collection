@@ -1,0 +1,7 @@
+---
+robots:
+- id: 1
+  name: Wallee
+- id: 2
+  name: Bender
+total: 2
