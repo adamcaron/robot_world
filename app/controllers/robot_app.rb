@@ -6,4 +6,9 @@ class RobotApp < Sinatra::Base
   get '/' do
     erb :dashboard
   end
+
+  get '/robots' do
+    @robots = RobotApi.all
+    erb :robots
+  end
 end
